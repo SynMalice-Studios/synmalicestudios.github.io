@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SynMalice Studios | Mobile Game Development</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #0b0c10;
+            color: #c5c6c7;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+        /* Background dim overlay for better text readability */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(11,12,16,0.85) 0%, rgba(11,12,16,0.98) 100%);
+            z-index: 1;
+        }
+        .main-container {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            margin: auto;
+            max-width: 600px;
+            padding: 20px;
+        }
+        .logo-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-transform: none;
+        }
+        .subtitle {
+            color: #66fcf1;
+            font-size: 1.1rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        .status-badge {
+            display: inline-block;
+            background-color: rgba(102, 252, 241, 0.06);
+            border: 1px solid rgba(102, 252, 241, 0.2);
+            color: #66fcf1;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+        footer {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            text-align: center;
+            padding: 25px 20px;
+            font-size: 0.8rem;
+            color: #45f3ff;
+            letter-spacing: 1px;
+            border-top: 1px solid rgba(255, 255, 255, 0.03);
+            background-color: rgba(11, 12, 16, 0.5);
+        }
+        footer p {
+            margin-bottom: 5px;
+        }
+        footer .legal-notice {
+            color: #666;
+            font-size: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <!-- Studio Logo Placeholder -->
+        <img src="logo.png" alt="SynMalice Logo" class="logo-img">
+        
+        <!-- Studio Name with Trademark symbol -->
+        <h1>SynMalice Studios&trade;</h1>
+        <p class="subtitle">Indie Game Dev</p>
+        
+        <!-- Status Badge -->
+        <div class="status-badge">PROJECTS IN EARLY DEVELOPMENT</div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SynMalice Studios. All Rights Reserved.</p>
+        <p class="legal-notice">SynMalice&trade; and the SM logo are proprietary trademarks of SynMalice Studios.</p>
+    </footer>
+
+</body>
+</html>
