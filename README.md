@@ -3,7 +3,7 @@
 ##My personal portfolio website hosted on GitHub Pages with a custom Squarespace domain
 
 ## 🚀 Live Demo
-You can view the live site here: (synmalicestudios.com)
+You can view the live site here: [https://synmalicestudios.com]
 
 ## 🛠️ Built With
 * HTML5
